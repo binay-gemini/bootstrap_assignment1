@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</head>
+<body>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+              <th class="col-6">FORM</th>
+              <th class="col-6">TABLE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="form-group">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="exampleFormControlInput2" placeholder="Mobile Number">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput3" class="form-label">Date of Birth</label>
+                    <input type="date" class="form-control" id="exampleFormControlInput3" >
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput4" class="form-label">Gender</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gender" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Male
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gender" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Female
+                        </label>
+                    </div>
+                    <br>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea5" class="form-label">City</label>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Select a city
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Gurugram</a>
+                          <a class="dropdown-item" href="#">Panchkula</a>
+                          <a class="dropdown-item" href="#">Hyderabad</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput6" class="form-label">Hobbies</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Cricket
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Football
+                        </label>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <input class="btn btn-success" type="reset" value="Submit">
+                    <input class="btn btn-danger" type="reset" value="Reset">
+                </div>
+            </div> 
+              </td>
+              <td>
+                <table class="table">
+                    <thead class="thead-light">
+                      <tr>
+                        <th scope="col">S.No</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Ph Number</th>
+                        <th scope="col">Gender</th>
+                        <th scope="col">City</th>
+                        <th scope="col">Hobbies</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>1</th>
+                        <td>Binay</td>
+                        <td>3334445556</td>
+                        <td>Male</td>
+                        <td>Patna</td>
+                        <td>Cricket,Music</td>
+                      </tr>
+                      <tr>
+                        <th>2</th>
+                        <td>Shaurya</td>
+                        <td>3334432556</td>
+                        <td>Male</td>
+                        <td>Gurgaon</td>
+                        <td>Reading books,badminton</td>
+                      </tr>
+                      <tr>
+                        <th>3</th>
+                        <td>Mahi</td>
+                        <td>3312845556</td>
+                        <td>Female</td>
+                        <td>Allahabad</td>
+                        <td>Dancing, Reading</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </td>
+            </tr>
+    </table>
+</body>
+</html>
